@@ -57,12 +57,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -77,21 +71,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="assets\Batteries.cs" />
-    <Compile Include="assets\CountdownTimer.cs" />
-    <Compile Include="assets\LifeScript.cs" />
-    <Compile Include="assets\PlayerManager.cs" />
-    <Compile Include="assets\ScoreSystem.cs" />
+    <Compile Include="assets\Scripts\Batteries.cs" />
     <Compile Include="assets\Scripts\BlackHole.cs" />
     <Compile Include="assets\Scripts\CameraController.cs" />
     <Compile Include="assets\Scripts\CharacterMovement.cs" />
+    <Compile Include="assets\Scripts\CountdownTimer.cs" />
     <Compile Include="assets\Scripts\Enemy1.cs" />
     <Compile Include="assets\Scripts\GrapplingHook.cs" />
     <Compile Include="assets\Scripts\InputManager.cs" />
     <Compile Include="assets\Scripts\Ladder.cs" />
+    <Compile Include="assets\Scripts\LifeScript.cs" />
+    <Compile Include="assets\Scripts\PlayerManager.cs" />
+    <Compile Include="assets\Scripts\ScoreSystem.cs" />
+    <Compile Include="assets\Scripts\StartGame.cs" />
     <Compile Include="assets\Scripts\States\CollisionState.cs" />
     <Compile Include="assets\Scripts\States\InputState.cs" />
-    <Compile Include="assets\StartGame.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
